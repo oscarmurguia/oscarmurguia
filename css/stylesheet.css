@@ -20,9 +20,17 @@
    
    html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
    
-   body { margin: 0; font-size: 0.8em; line-height: 1.4; }
+   body { margin: 0; font-size: 0.8em; line-height: 1.4;}
    
-   body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+   body {
+      background-image: url('https://www.point-star.com/wp-content/uploads/2021/06/Azure-Products-e1624861611320.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-color: rgba(0, 0, 0, 0.5);   
+  }
+
+   body, button, input, select, textarea { font-family: sans-serif; color: white; }
    
    /*
     * Remove text-shadow in selection highlight: h5bp.com/i
